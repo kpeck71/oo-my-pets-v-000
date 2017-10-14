@@ -7,7 +7,7 @@ class Owner
     @pets = {fishes: [], cats: [], dogs: []}
   end
 
-  def self.all
+  def self.all(pets)
     @@all << self.new(pets)
   end
 
