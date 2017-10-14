@@ -10,4 +10,5 @@ class Dog
   def mood
     @mood
   end
+  
 end
