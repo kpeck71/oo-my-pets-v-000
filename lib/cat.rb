@@ -5,9 +5,4 @@ class Cat
     @name = name
   end
 
-  def name
-    puts "error"
-    # @name.dup.freeze
-  end
-
 end
