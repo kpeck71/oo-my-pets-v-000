@@ -18,6 +18,7 @@ class Owner
 
   def name=(name)
     self.name = name
+  end
 
   def self.all
     @@owners
