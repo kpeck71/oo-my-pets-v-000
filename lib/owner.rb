@@ -14,7 +14,6 @@ class Owner
 
   def reset_all
     @@owners.clear
-
   end
 
   def buy_fish(name)
