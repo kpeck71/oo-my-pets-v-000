@@ -5,7 +5,7 @@ class Owner
     @pets = {fishes: [], cats: [], dogs: []}
   end
 
-  def buy(name)
+  def buy_(name)
     new_pet = "#{name}".new
     pets["#{name}] << new_pet
   end
