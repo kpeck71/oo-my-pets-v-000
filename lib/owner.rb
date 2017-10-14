@@ -1,14 +1,14 @@
 class Owner
   attr_accessor :pets
 
-  @@all = []
+  @@owners = []
 
   def initialize(pets)
     @pets = {fishes: [], cats: [], dogs: []}
   end
 
   def self.all
-    @@all 
+    @@all
   end
 
   def buy_fish(name)
