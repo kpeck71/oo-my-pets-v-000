@@ -6,7 +6,7 @@ class Cat
   end
 
   def name
-    @name.freeze
+    @name.dup.freeze
   end
-  
+
 end
