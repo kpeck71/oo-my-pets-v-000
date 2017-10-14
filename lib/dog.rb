@@ -7,8 +7,8 @@ class Dog
     @mood = mood
   end
 
-  def mood
+  def mood=(mood)
     @mood
   end
-  
+
 end
