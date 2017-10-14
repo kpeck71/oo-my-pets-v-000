@@ -6,6 +6,6 @@ class Owner
   end
 
   def buy(name)
-    new_pet = "#{name}".new(name)
+    new_pet = "#{name}".new
   end
 end
