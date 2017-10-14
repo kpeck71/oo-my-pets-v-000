@@ -45,7 +45,7 @@ class Owner
   end
 
   def walk_dogs
-    Dog.mood.replace = "happy"
+    Dog.mood.replace("happy")
   end
 
 end
