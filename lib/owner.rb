@@ -9,4 +9,20 @@ class Owner
     new_fish = Fish.new
     pets[fishes] << new_fish
   end
+
+  def buy_fish(name)
+    new_fish = Fish.new
+    pets[fishes] << new_fish
+  end
+
+  def buy_fish(name)
+    new_fish = Fish.new
+    pets[fishes] << new_fish
+  end
+
+  def cat(name)
+    cat = Fish.new
+    pets[fishes] << cat
+  end
+  
 end
