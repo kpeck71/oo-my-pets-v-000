@@ -8,6 +8,8 @@ class Owner
   end
 
   def self.all
+    @@all < self
+  end
 
   def buy_fish(name)
     new_fish = Fish.new(name)
