@@ -2,6 +2,7 @@ class Cat
   attr_accessor :name
 
   def initialize(name)
-    @name.freeze = name
+    @name = name
+    @name.freeze
   end
 end
