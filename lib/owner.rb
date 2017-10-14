@@ -62,7 +62,7 @@ class Owner
     pets[:fishes].each {|p| p.mood = "nervous"}
     #REFACTOR ME!
     # pets.each do |type, animals|
-    #   symbols.each do |animal|
+    #   animal.each do |animal|
     #     puts animal
     #   end
     # end
