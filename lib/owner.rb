@@ -8,7 +8,7 @@ class Owner
   end
 
   def self.all
-    @@all << self.new
+    @@all << self.new(pets)
   end
 
   def buy_fish(name)
