@@ -60,6 +60,7 @@ class Owner
     pets.each do |pet,v|
       pet.each do |p|
         p.mood = "nervous"
+      end
     end
     pets.clear
     # pets[:dogs].each {|p| p.mood = "nervous"}
