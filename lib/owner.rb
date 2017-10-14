@@ -60,6 +60,7 @@ class Owner
     pets[:dogs].each {|p| p.mood = "nervous"}
     pets[:cats].each {|p| p.mood = "nervous"}
     pets[:fishes].each {|p| p.mood = "nervous"}
+    #REFACTOR ME!
     pets.clear
   end
 
