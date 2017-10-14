@@ -16,9 +16,6 @@ class Owner
     "I am a #{species}."
   end
 
-  def name=(owner_name)
-  #  self.name = owner_name
-  end
 
   def self.all
     @@owners
