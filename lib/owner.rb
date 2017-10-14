@@ -69,5 +69,6 @@ class Owner
       symbols.each do |animal|
         puts animal
       end
+    end
 
 end
