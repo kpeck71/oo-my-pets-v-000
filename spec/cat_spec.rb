@@ -13,7 +13,7 @@ describe Cat do
   end
 
   it "can't change its name" do
-    expect { cat.name = "mr. whiskers" }.to raise_error("You can't change this name")
+    expect { cat.name = "mr. whiskers" }.to raise_error("You can't change your pet's name")
   end
 
   it "initializes with a nervous mood" do
