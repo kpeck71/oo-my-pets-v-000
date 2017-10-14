@@ -3,5 +3,6 @@ class Cat
 
   def initialize(name)
     @name = name
+    @name.dup.freeze
   end
 end
