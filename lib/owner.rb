@@ -9,7 +9,7 @@ class Owner
     @species = species
     @@owners << self
   end
-
+binding.pry
   def say_species
     puts "I am a #{species}"
   end
