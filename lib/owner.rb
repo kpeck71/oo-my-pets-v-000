@@ -10,19 +10,14 @@ class Owner
     pets[fishes] << new_fish
   end
 
-  def buy_fish(name)
+  def buy_dog(name)
     new_fish = Fish.new
     pets[fishes] << new_fish
   end
 
-  def buy_fish(name)
-    new_fish = Fish.new
-    pets[fishes] << new_fish
+  def buy_cat(name)
+    cat = Cat.new
+    pets[cats] << cat
   end
 
-  def cat(name)
-    cat = Fish.new
-    pets[fishes] << cat
-  end
-  
 end
