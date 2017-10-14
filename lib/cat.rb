@@ -7,7 +7,7 @@ class Cat
 
   def name
     puts "error"
-    ?@name.dup.freeze
+    # @name.dup.freeze
   end
 
 end
