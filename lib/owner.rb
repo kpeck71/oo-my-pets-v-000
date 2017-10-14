@@ -45,7 +45,7 @@ class Owner
   end
 
   def walk_dogs
-    mood = "happy"
+    mood.replace("happy")
   end
 
 end
