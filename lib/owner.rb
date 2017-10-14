@@ -12,7 +12,7 @@ class Owner
 
   def buy_dog(name)
     new_dog = Fish.new
-    pets[fishes] << new_fish
+    pets[fishes] << new_dog
   end
 
   def buy_cat(name)
