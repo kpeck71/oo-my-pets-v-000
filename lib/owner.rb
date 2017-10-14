@@ -67,6 +67,7 @@ class Owner
   def list_pets
     pets.each do |symbols, numbers|
       symbols.each do |animal|
-        animal
+        puts animal
+      end
 
 end
