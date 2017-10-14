@@ -65,11 +65,7 @@ class Owner
   end
 
   def list_pets
-    # pets.each do |symbols, numbers|
-    #   symbols.each do |animal|
-    #     puts animal
-    #   end
-    # end
+    "I have #{pets[:fishes].count} fish, #{pets[:dogs].count} dog(s), and #{pets[:cats].count} cat(s)."
   end
 
 end
