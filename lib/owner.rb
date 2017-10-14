@@ -63,7 +63,7 @@ class Owner
     #REFACTOR ME!
     # pets.each do |type, animals|
     #   animal.each do |animal|
-    #     puts animal
+          animal.mood = "nervous"
     #   end
     # end
     pets.clear
