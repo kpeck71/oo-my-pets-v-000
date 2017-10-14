@@ -70,5 +70,6 @@ class Owner
         puts animal
       end
     end
+  end
 
 end
