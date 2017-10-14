@@ -17,7 +17,7 @@ class Owner
   end
 
   def name=(owner_name)
-    self.name = name
+    self.name = owner_name
   end
 
   def self.all
