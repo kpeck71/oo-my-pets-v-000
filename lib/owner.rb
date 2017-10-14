@@ -6,7 +6,6 @@ class Owner
 
   def initialize(pets, species)
     @pets = {fishes: [], cats: [], dogs: []}
-    @species = species
     @@owners << self
 
   end
