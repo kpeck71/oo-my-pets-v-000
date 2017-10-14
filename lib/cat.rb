@@ -8,4 +8,5 @@ class Cat
   def name
     @name.freeze
   end
+  
 end
