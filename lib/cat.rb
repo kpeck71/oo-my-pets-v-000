@@ -3,7 +3,7 @@ class Cat
 
   def initialize(name, mood="nervous")
     @name = name
-    @name.freeze
+    @name.dup.freeze
     @mood = mood
 
   end
