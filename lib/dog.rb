@@ -1,7 +1,10 @@
 class Dog
-  attr_accessor :name
+  attr_accessor :name, :mood
 
-  def initialize(name)
+  def initialize(name, mood="nervous")
     @name = name
+    @name.dup.freeze
+    @mood = mood
+
   end
 end
