@@ -6,6 +6,7 @@ class Cat
   end
 
   def name
+    puts error
     @name.dup.freeze
   end
 
