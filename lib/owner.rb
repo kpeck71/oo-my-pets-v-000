@@ -57,15 +57,15 @@ class Owner
   end
 
   def sell_pets
-    pets[:dogs].each {|p| p.mood = "nervous"}
-    pets[:cats].each {|p| p.mood = "nervous"}
-    pets[:fishes].each {|p| p.mood = "nervous"}
-    #REFACTOR ME!
-    # pets.each do |type, animals|
-    #   animal.each do |animal|
-          animal.mood = "nervous"
-    #   end
-    # end
+    # pets[:dogs].each {|p| p.mood = "nervous"}
+    # pets[:cats].each {|p| p.mood = "nervous"}
+    # pets[:fishes].each {|p| p.mood = "nervous"}
+    # #REFACTOR ME!
+    pets.each do |type, animals|
+     animal.each do |animal|
+      animal.mood = "nervous"
+      end
+     end
     pets.clear
   end
 
